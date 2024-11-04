@@ -16,4 +16,4 @@ def signup(request):
     return render(request, "signup/signup.html", {"form": form})
 
 def home_view(request):
-    return render(request, 'home/home.html')
+    return render(request, 'home/index.html')
